@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+}
+
+.mainheader{
+    text-align: center;
+    font-size: 40px;
+    background-color: #041b2c;
+    color: white;
+    height: 70px;
+    width: 100%;
+    text-decoration: underline;
+    position: fixed;
+    top: 0px;
+    padding-top: 5px;
+}
+
+.main-navbar{
+    background-color: #0c4169;
+    height: 60px;
+    width: 100%;
+    padding-top: 7px;
+    font-size: 20px;
+    top: 70px;
+    position: fixed;
+}
+
+.list1{
+    list-style-type: none;
+    text-align: end;
+    padding-left: 0;
+}
+
+.list1 li{
+    padding: 8px 8px;
+    display:inline-block;
+    border: 2px black solid;
+    margin: 2px 15px;
+    border-radius: 40px;
+    background-color: #03253b;
+    color: white;
+}
+
+.list1 li a{
+    color: white;
+}
+
+.list1 li .touch{
+    color: rgb(36, 106, 197);
+}
+
+#name{
+    margin-left: 9px;
+    font-size: 40px;
+    padding-top: 140px;
+}
+
+.about{
+    margin-top:20px;
+    box-sizing: border-box;
+}
+
+.content{
+    float: left;
+    width: 60%;
+    margin-left: 10px;
+}
+
+.h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.button{
+    list-style-type: none;
+}
+
+.button li{
+    display: inline-block;
+    margin: 120px;
+    font-size: 20px;
+    padding: 9px 9px;
+    border-radius: 40px;
+    background-color:  #03253b;
+}
+
+.button li a{
+    color: white;
+}
+
+.sidebar{
+    float: right;
+    width: 35%;
+    
+}
+
+.clr{
+    clear: both;
+}
+
+
+
+
+#hobbies{
+    padding-top: 150px;
+}
+
+#hobbies h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.hobs{
+    list-style-type: none;
+    padding-left: 140px;
+    width: 30%;
+    float: left;
+    font-size: 20px;
+}
+
+.lks1{
+    list-style-image: url("music.png");
+    padding: 30px;
+    width: 200px;
+}
+
+.lks2{
+    list-style-image: url("coding.png");
+    padding: 30px;
+    width: 200px;
+}
+
+.lks3{
+    list-style-image: url("travelling.png");
+    padding: 30px;
+    width: 200px;
+}
+
+.lks4{
+    list-style-image: url("workout.png");
+    padding: 30px;
+    width: 200px;
+}
+
+.desciption{
+    margin-top: 30px;
+    margin-left: 550px;
+    margin-right: 50px;
+    border: 4px #041b2c solid ;
+    padding:10px 10px;
+    border-radius: 20px;
+}
+
+
+
+
+#skills{
+    padding-top: 140px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#skills h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+#skills ul{
+    margin-top: 40px;
+    list-style-type: none;
+    font-size: 32px;
+    border:10px #041b2c solid;
+    border-radius: 100px;
+    padding-right: 30px;
+}
+
+#skills ul li{
+    padding: 40px 20px;
+}
+
+.bar{
+    background-color: rgb(235, 48, 48);
+    display: block;
+    height: 5px;
+}
+
+.bar span{
+    height: 5px;
+    float: left;
+    background-color: rgb(68, 128, 68);
+}
+
+.HTML{
+    width: 40%;
+}
+.CSS{
+    width: 20%;
+}
+.Javascript{
+    width: 0%;
+}
+.Basics{
+    width: 50%;
+}
+
+.ref{
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.space{
+    margin-top: 200px;
+}
+
+@media(max-width:1200px)
+{
+    .button li{
+        margin:50px;
+    }
+}
+@media(max-width:1000px)
+{
+    .hobs{
+        display: block;
+    }
+    .desciption{
+        margin-left: 50px;
+        margin-top: 650px;
+    }
+}
+@media(max-width :900px)
+{
+    .button li{
+        margin:10px ;
+    }
+    
+    .content{
+        width: 90%;
+    }
+    .sidebar{
+        display: block;
+        width: 70%;
+        float:left;
+    }
+}
